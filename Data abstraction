@@ -1,0 +1,10 @@
+What is Abstraction in Python?
+     Abstraction in python is defined as a process of handling complexity by hiding unnecessary information from the user.
+     Data abstraction is the reduction of a particular body of data to a simplified representation of the whole. 
+     Abstraction, in general, is the process of removing characteristics from something to reduce it to a set of essential elements.
+Why Do We Need Abstraction?
+     Through the process of abstraction in Python, a programmer can hide all the irrelevant data of an application to reduce complexity and increase efficiency. 
+
+
+
+
