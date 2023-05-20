@@ -1,0 +1,92 @@
+what is queue? 
+    We can define a queue as a linear data structure that stores data sequentially based on the First In First Out (FIFO) manner.
+    So, the data inserted first will be removed from the queue first. Since the first element inserted is served and removed, the queue data structure is also known as the First Come First Served data structure.
+
+Operations of Queue in Python:
+1. Enqueue
+     Inserting an element of data into the queue is known as enqueue.
+     An element is inserted or enqueued from the rear end of the queue.
+2. Dequeue
+     Deleting or removing an element of data from the queue is known as dequeue.
+     An element is deleted or dequeued from the front end of the queue. 
+3. Front
+     The front is a pointer that points to the element first inserted into the queue.
+     The front of a queue helps us to get the oldest element present in the queue. 
+4. Rear
+     The rear is a kind of pointer that points to the element which is last inserted into the queue.
+     The rear of a queue helps us to get the newest element present in the queue.
+     
+Methods Available in Queue:
+1. put(item)
+     The queue provides the put(item) method in python to insert an element into the queue.
+2. get()
+     The queue provides the get() method in python to get or extract an element from the queue. 
+3. empty()
+     The empty() method is provided by the queue in python to check whether the queue is empty.
+4. qsize()
+     The qsize() method is provided by the queue in python to get the size
+5. full()
+     The full() method is vice versa of the empty() method. The full() method is provided by the queue in python to check whether the queue is full or not.
+
+Implementation using list:
+
+# Initializing a list-based queue 
+queue = []
+
+# Enqueue elements or appending elements
+queue.append(1)
+queue.append(2)
+ 
+print(queue)
+ 
+# Dequeue elements or popping elements
+print(queue.pop(0))
+print(queue.pop(0))
+ 
+print(queue)
+
+Implementation using collections.deque:
+
+from collections import deque
+ 
+# Initializing a class-based dequeue queue 
+queue = deque()
+ 
+# Enqueue elements or appending elements
+queue.append(1)
+queue.append(2)
+
+print(queue)
+ 
+# Dequeue elements or popping elements
+print(queue.popleft())
+print(queue.popleft())
+ 
+print(queue)
+
+Implementation using queue.Queue:
+from queue import Queue
+ 
+# Initializing a Queue module based queue with size = 2
+q = Queue(maxsize = 2)
+ 
+# qsize() give the maxsize
+# of the Queue
+print(q.qsize())
+ 
+# Enqueue elements putting elements
+q.put(1)
+q.put(2)
+ 
+print("Size of the queue: ", q.qsize())
+
+# Dequeue elements or getting elements
+print(q.get())
+print(q.get())
+ 
+print("Size of the queue: ", q.qsize())
+
+
+
+
+
