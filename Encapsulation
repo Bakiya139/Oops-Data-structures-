@@ -23,5 +23,25 @@ Real-Life Example of Encapsulation:
      The capsule's powder is made up of many components, and the capsule's outer shield protects the internal components from the outside world. 
      Similarly, we can wrap data and code as a single unit and secure it from outside code using Encapsulation.
 
+Advantages of Encapsulation:
 
+Data Protection:
+The program runner will not be able to identify or see which methods are present in the code. 
+
+Flexibility: 
+The code which is encapsulated looks more cleaner and flexible, and can be changed as per the needs. 
+
+Reusability:
+The methods can be changed and the code is reusable.
+
+Disadvantages of Encapsulation:
+
+Code Size:
+The length of the code increases drastically in the case of encapsulation as we need to provide all the methods with the specifiers.
+
+More Instructions:
+As the size of the code increases, therefore, you need to provide additional instructions for every method.
+
+Increased code execution:
+Encapsulation results in an increase in the duration of the program execution. It is because more instructions are added to the code therefore they require more time to execute.
 
