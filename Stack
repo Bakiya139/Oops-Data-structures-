@@ -1,1 +1,106 @@
+What is Stack in Python?
+     A stack in python is a linear data structure that 
+stores items in a Last-In/First-Out manner
+     In any stack structure, a new data object or element is added at one end and removed from the same end only.
+     
+Methods of Python Stack:
+The functions/methods associated with stacks are listed below:
 
+     empty() – Returns a boolean (True/False) value as True if the stack is empty
+     size() – Returns size of the stack or number of items/elements stored in the stack
+     top() – Returns a reference to the topmost available element stored in the stack
+     push(a) – Inserts an element at the top of the stack
+     pop() – Deletes the topmost element from the last occupied memory location of the stack
+
+ Implementation Using List:
+ 
+ # Program 1 - Python program to demonstrate stack implementation using the list
+ 
+stack_example = []
+ 
+# append() function to push element in the stack
+stack_example.append('one')
+stack_example.append('two')
+stack_example.append('three')
+stack_example.append('four')
+ 
+print('Initial stack with 4 elements one, two, three, four loaded in sequence')
+print(stack_example)
+ 
+# pop() function to pop element from stack in LIFO order
+print('3 Elements popped from stack in LIFO order:')
+print(stack_example.pop())
+print(stack_example.pop())
+print(stack_example.pop())
+ 
+print('\nStack after 3 elements are popped:')
+print(stack_example)
+# stack is left with one element only
+
+print('\nStack is left with one element only')
+print(stack_example.pop())
+print(stack_example.pop())
+
+Implementation Using Collections Deque Methods:
+
+
+
+# Program 2 - Python program to demonstrate stack implementation using collections.deque
+ 
+from collections import deque
+ 
+stack_example2 = deque()
+ 
+# append() function to push elements in the stack
+stack_example2.append('one')
+stack_example2.append('two')
+stack_example2.append('three')
+stack_example2.append('four')
+print('Initial stack:')
+print(stack_example2)
+ 
+# pop() function to pop
+# element from stack in
+# LIFO order
+print('4 Elements popped from stack:')
+print(stack_example2.pop())
+print(stack_example2.pop())
+print(stack_example2.pop())
+print(stack_example2.pop())
+ 
+print('\n Empty Stack after elements are popped:')
+print(stack_example2)
+ 
+Implementation Using Queue Module:
+
+# Program 3 - Python program to demonstrate stack implementation using queue module
+
+from queue import LifoQueue
+# Initializing a stack
+stack_example3 = LifoQueue(maxsize=4)
+ 
+# qsize() show the number of elements in the stack
+print("Number of elements at start = ", stack_example3.qsize())
+ 
+# put() function to push element in the stack
+stack_example3.put('one')
+stack_example3.put('two')
+stack_example3.put('three')
+stack_example3.put('four')
+
+ 
+print("Stack Full flag: ", stack_example3.full())
+print("Size after placing 4 elements: ", stack_example3.qsize())
+ 
+# get() function to pop element from stack in LIFO order
+print('\n3 Elements popped from the stack in LIFO order')
+print(stack_example3.get())
+print(stack_example3.get())
+print(stack_example3.get())
+
+print("\nEmpty: ", stack_example3.empty())
+
+Benefits of Stack in Python:
+
+• Stack in Python can allocate memory dynamically which cannot be done in the list.
+list in Python takes a lot of effort to add a new element or remove an element whereas stack in Python can easily manage the addition or removal of elements.
