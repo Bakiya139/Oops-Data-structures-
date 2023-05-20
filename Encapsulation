@@ -1,1 +1,9 @@
+what is Encapsulation :
+     Encapsulation is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. 
+     In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class
 Types of Encapsulation in OOPs:
+Real-Life Example of Encapsulation:
+     Let's look at a real-life example to better comprehend the notion of encapsulation.
+     Consider a Capsule as an example (Medicine). 
+     The capsule's powder is made up of many components, and the capsule's outer shield protects the internal components from the outside world. 
+     Similarly, we can wrap data and code as a single unit and secure it from outside code using Encapsulation.
