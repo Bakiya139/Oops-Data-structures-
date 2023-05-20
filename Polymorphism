@@ -1,0 +1,21 @@
+What is Polymorphism in Python?
+     The literal meaning of Polymorphism is - having different forms.
+     In programming, Polymorphism refers to a function having the same name but being used in different ways and different scenarios. 
+Real time example of polymorphism :
+     Another excellent real time example of polymorphism is your smartphone. 
+     The smartphone can act as phone, camera, music player and what not, taking different forms and hence polymorphism.
+     Behaviour of humans can also be considered real time example of polymorphism.
+     Like a person behaves differently with different person
+Advantages of Polymorphism:
+     1.Programmers code can be reused via Polymorphism.
+     2.Supports a single variable name for multiple data types.
+     3.Reduces coupling between different functionalities.
+Disadvantages of Polymorphism:
+     1.Polymorphism ends up raising performance issues in real-time.
+     2.Polymorphism reduces the readability of the code.
+     3.Programmers find Polymorphism a little challenging to implement.
+     
+     
+     
+     
+     
